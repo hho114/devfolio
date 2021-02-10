@@ -19,7 +19,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
     <div className={classes.wrapper}>
       <h3
         className={`${classes.name} ${
-          link ? 'hover:underline hover:text-gray-500' : ''
+          link ? 'hover:font-extrabold hover:text-white' : ''
         }`}
       >
         {link ? linkContent : name}

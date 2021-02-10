@@ -9,16 +9,17 @@ const classes = {
   imageWrapper: 'w-full max-w-150',
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
-  name: 'text-5xl font-bold leading-tight text-gray-300  hover:text-gray-600',
+  name: 'text-5xl font-bold leading-tight text-gray-500  hover:text-white hover:font-extrabold',
   description: 'text-gray-400',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4 ',
   link:
-    'inline-block py-2 font-semibold text-xs text-gray-500 hover:text-white',
+    'inline-block py-2 font-semibold text-xs text-gray-400 hover:text-white hover:font-extrabold',
 };
 
 const Header = ({ metadata = {}, noBlog = true }) => {
-  const resume = get(metadata, 'author', false);
+  const resume = get(metadata, 'resume', false);
+  const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
   
@@ -35,7 +36,9 @@ const Header = ({ metadata = {}, noBlog = true }) => {
           <Link to="/">{metadata.name}</Link>
         </h1>
         <p className={classes.description}>{metadata.description}</p>
+        
         <ul className={classes.list}>
+
           {resume && (
             <li className={classes.item}>
               <a
@@ -46,6 +49,18 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </a>
             </li>
           )}
+
+          {twitter && (
+            <li className={classes.item}>
+              <a
+                className={classes.link}
+                href={`https://twitter.com/${twitter}`}
+                >
+                Twitter
+              </a>
+            </li>
+          )}
+
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
@@ -53,6 +68,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </a>
             </li>
           )}
+
           {linkedin && (
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>

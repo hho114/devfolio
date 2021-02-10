@@ -9,7 +9,9 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `I am a software engineer, mobile developer (IOS & Android) based out of Virginia, USA. I have experience building mobile and web applications and services in various verticals and I enjoy building side projects in my free time.`,
     // Optional: Twitter account handle
-    author: `https://raw.githubusercontent.com/hho114/resume/master/huy_ho_resume.pdf`,
+    author: `@AlexHo114`,
+    // Optional: Resume URL
+    resume: `https://raw.githubusercontent.com/hho114/resume/master/huy_ho_resume.pdf`,
     // Optional: Github account URL
     github: `https://github.com/hho114`,
     // Optional: LinkedIn account URL

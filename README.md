@@ -1,8 +1,8 @@
 # Devfolio
 
-![Preview](https://user-images.githubusercontent.com/9112801/96329524-c8906600-101b-11eb-8fd8-4d45e7f0cd1b.jpg)
+<!-- ![Preview](https://user-images.githubusercontent.com/9112801/96329524-c8906600-101b-11eb-8fd8-4d45e7f0cd1b.jpg) -->
 
-Devfolio is a modern and production-ready personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS. Easily show off your projects, experience, and skills, as well as write blog posts showcasing your knowledge.
+Dark Theme Devfolio is a modern and production-ready personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS. Easily show off your projects, experience, and skills, as well as write blog posts showcasing your knowledge.
 
 Some of the features include:
 
@@ -15,13 +15,10 @@ Some of the features include:
 - Extend and Customize as Needed
 - Blazing Fast 🙄
 
-**[Need help with the template or have suggestions? Reach out on Twitter anytime!](https://twitter.com/rfitzio)**
-
 ## Demo
 
-For a live demo of the base template, [click here](https://elastic-meninsky-aa7c74.netlify.app/).
 
-For a live demo of a slightly customized version of the template (my own personal site), [click here](https://rfitz.io).
+For a live demo of a slightly customized version of the template (my own personal site), [click here](https://alexhuyho.com).
 
 ## Contents
 
@@ -66,7 +63,7 @@ The _Projects_ section is defined as an array under the `projects` key in the co
 {
   name: 'Devfolio', // Required
   description: 'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS', // Required
-  link: 'https://github.com/RyanFitzgerald/devfolio', // Optional
+  link: 'https://github.com/hho114/devfolio', // Optional
 }
 ```
 
@@ -76,9 +73,9 @@ The _Experience_ section is defined as an array under the `experience` key in th
 
 ```js
 {
-  name: 'Hooli', // Required
-  description: 'Full-Stack Developer, May 2015 - December 2017', // Required
-  link: 'https://github.com/RyanFitzgerald/devfolio', // Optional
+  name: 'Intelligent Learning Experiences Lab', // Required
+  description: 'Mobile and Full-Stack Developer, January 2020 - September 2020', // Required
+  link: 'https://github.com/hho114/devfolio', // Optional
 },
 ```
 
@@ -89,7 +86,7 @@ The _Skills_ section is defined as an array under the `skills` key in the config
 ```js
 {
   name: 'Languages & Frameworks',
-  description: 'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+  description: 'Swift, Java, Dart, Kotlin, Flutter, JSON, C++, C, HTML, XML, CSS, Python, SQL, Fortran, JavaScript, Node.js, Express.js, Reactjs, PHP.',
 },
 ```
 
@@ -133,7 +130,7 @@ My deployment source of choice is [Netlify](https://www.netlify.com/) and is whe
 
 For the easiest setup possible, simply click:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devfolio"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify"/></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/hho114/devfolio"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify"/></a>
 
 If you'd rather run through the steps manually, start by creating a free Netlify account with your GitHub.
 
@@ -151,7 +148,7 @@ Another straightforward way to deploy devfolio is to use [Vercel](https://vercel
 
 You can deploy devfolio with just a few clicks:
 
-<a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FRyanFitzgerald%2Fdevfolio&project-name=devfolio&repository-name=devfolio"><img src="https://vercel.com/button" alt="Vercel"/></a>
+<a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%hho114%2Fdevfolio&project-name=devfolio&repository-name=devfolio"><img src="https://vercel.com/button" alt="Vercel"/></a>
 
 As with Netlify, the deployment can be also done manually following identical settings.
 
@@ -220,4 +217,4 @@ This is however just a recommendation, the template allows you to write the comp
 
 ## License
 
-Licensed under the [MIT License](https://github.com/RyanFitzgerald/devfolio/blob/master/LICENSE.md).
+Licensed under the [MIT License](https://github.com/hho114/devfolio/blob/master/LICENSE.md).
