@@ -1,5 +1,6 @@
 # Devfolio
 
+
 <!-- ![Preview](https://user-images.githubusercontent.com/9112801/96329524-c8906600-101b-11eb-8fd8-4d45e7f0cd1b.jpg) -->
 
 Dark Theme Devfolio is a modern and production-ready personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS. Easily show off your projects, experience, and skills, as well as write blog posts showcasing your knowledge.
@@ -219,3 +220,6 @@ This is however just a recommendation, the template allows you to write the comp
 ## License
 
 Licensed under the [MIT License](https://github.com/hho114/devfolio/blob/master/LICENSE.md).
+
+
+Credit: [Original Project](https://github.com/RyanFitzgerald/devfolio)
