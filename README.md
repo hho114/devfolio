@@ -17,7 +17,6 @@ Some of the features include:
 
 ## Demo
 
-
 For a live demo of a slightly customized version of the template (my own personal site), [click here](https://alexhuyho.com).
 
 ## Contents
@@ -126,7 +125,7 @@ With that said, some deployment options are even easier so I will provide a coup
 
 ### Netlify
 
-My deployment source of choice is [Netlify](https://www.netlify.com/) and is where my own [personal site](https://rfitz.io) is hosted. They have a Free Plan and automatically deploy changes to your `master` branch if you connect with GitHub or GitLab.
+My deployment source of choice is [Netlify](https://www.netlify.com/) and is where my own [personal site](https://alexhuyho.com) is hosted. They have a Free Plan and automatically deploy changes to your `master` branch if you connect with GitHub or GitLab.
 
 For the easiest setup possible, simply click:
 
@@ -148,7 +147,7 @@ Another straightforward way to deploy devfolio is to use [Vercel](https://vercel
 
 You can deploy devfolio with just a few clicks:
 
-<a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%hho114%2Fdevfolio&project-name=devfolio&repository-name=devfolio"><img src="https://vercel.com/button" alt="Vercel"/></a>
+<a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fhho114%2Fdevfolio&project-name=devfolio&repository-name=devfolio"><img src="https://vercel.com/button" alt="Vercel"/></a>
 
 As with Netlify, the deployment can be also done manually following identical settings.
 
