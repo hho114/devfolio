@@ -26,7 +26,7 @@ module.exports = {
         name: 'Porfolio',
         description:
           'A modern dark theme personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.',
-        link: 'https://hho114.github.io/',
+        link: 'https://github.com/hho114/devfolio',
       },
       {
         name: 'Burger Order',
@@ -52,7 +52,7 @@ module.exports = {
       {
         name: 'Recovery Trek',
         description: 'Mobile Developer, September 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://www.recoverytrek.com/',
       },
       {
         name: 'Intelligent Learning Experiences Lab',
