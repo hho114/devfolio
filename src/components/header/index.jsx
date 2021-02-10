@@ -21,6 +21,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
   const resume = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  
 
   return (
     <div className={classes.wrapper}>
@@ -59,13 +60,21 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </a>
             </li>
           )}
-          {!noBlog && (
+          {
+            <li className={classes.item}>
+              <Link className={classes.link} href={"mailto:huyho114@gmail.com"}>
+                EMAIL-ME
+              </Link>
+            </li>
+          }
+          {noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
                 Blog
               </Link>
             </li>
           )}
+
         </ul>
       </div>
     </div>
