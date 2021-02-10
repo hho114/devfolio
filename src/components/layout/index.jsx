@@ -1,15 +1,15 @@
 import React from 'react';
 
 const classes = {
-  wrapper: 'p-8 relative max-w-screen-xl xs:p-24',
-  outerWrapper: 'relative',
-  svg: 'hidden fixed transform right-0 top-5 z-0 xl:block',
+  wrapper: 'p-8 relative max-w-screen-xl xs:p-24 bg-gray-900',
+  outerWrapper: 'relative bg-gray-900',
+  svg: 'hidden fixed transform right-0 top-5 z-0 xl:block ',
 };
 
 const Layout = ({ children }) => {
   return (
     <div className={classes.outerWrapper}>
-      <svg
+      {/* <svg
         className={classes.svg}
         width="404"
         height="784"
@@ -30,8 +30,9 @@ const Layout = ({ children }) => {
               y="0"
               width="4"
               height="4"
-              className="text-gray-200"
-              fill="#edf2f7"
+              className="text-gray-400"
+              // fill="#edf2f7"
+              fill="#718096"
             />
           </pattern>
         </defs>
@@ -40,7 +41,7 @@ const Layout = ({ children }) => {
           height="784"
           fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
         />
-      </svg>
+      </svg> */}
       <div className={classes.wrapper}>{children}</div>
     </div>
   );

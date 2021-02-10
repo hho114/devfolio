@@ -1,58 +1,69 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://alexhuyho.com`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Alex Ho',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Alex Ho | Mobile Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `I am a software engineer, mobile developer (IOS & Android) based out of Virginia, USA. I have experience building mobile and web applications and services in various verticals and I enjoy building side projects in my free time.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `https://raw.githubusercontent.com/hho114/resume/master/huy_ho_resume.pdf`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/hho114`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/hho114/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `My professional life has been 100% driven by my passion for design and structure. I was always curious about technology when I was a kid, and started fixing things such as laptops and computers while in high school, therefore I chose a computer science career path as today. My short term goal is to join a reputed company where I can utilize my skills and knowledge for upliftment of the company and where I can get a learning environment to boost my career. My long term goal is to become skillful and coordinated towards the development of the country. My current interests are web development, mobile development, machine learning, data analysis, and software engineering.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Porfolio',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A modern dark theme personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.',
+        link: 'https://hho114.github.io/',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Burger Order',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A sample order burger website with multiple foudation implements',
+        link: 'https://github.com/hho114/reactjs-burger',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Dump The Bump',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Cross platfrom mobile application with Firebase and Flutter',
+        link: 'https://apps.apple.com/us/app/dump-the-bump/id1518827461',
+      },
+      {
+        name: 'University Database',
+        description:
+          'Website to check grades and search for courses and professor with mock university database',
+        link: 'https://github.com/hho114/University_Database',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: 'Recovery Trek',
+        description: 'Mobile Developer, September 2020 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Intelligent Learning Experiences Lab',
+        description: 'Mobile and Full-Stack Developer, January 2020 - September 2020',
+        link: 'http://www.fullerton.edu/ecs/faculty/pinventado/ilxl/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'California State University, Fullerton',
+        description: 'Computer Laboratory Consultant, August 2019 - August 2020',
+        link: 'http://www.fullerton.edu/nrcal/',
+      },
+      {
+        name: 'National Resource Center For Asian Languages',
+        description: 'IT Support Specialist, August 2019 - January 2020',
+        link: 'http://www.fullerton.edu/nrcal/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +71,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Swift, Java, Dart, Kotlin, Flutter, JSON, C++, C, HTML, XML, CSS, Python, SQL, Fortran, JavaScript, Node.js, Express.js, Reactjs, PHP. ',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'Firebase, AWS, MongoDB, JSON API, RESTAPI, NoSQL, Salesforce, MySQL.',
       },
       {
-        name: 'Other',
+        name: 'Others',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum, Xcode, Android Studio, Bash Terminal, Play Store Console, Apple Store Connect, VSCode, Git, Microsoft Office, Github, Gitlab, Heroku, Bugfender, Linux, Window, Mac.',
       },
     ],
   },
