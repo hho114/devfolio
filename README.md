@@ -46,6 +46,8 @@ To get started, either fork or clone the repo. Next, open `gatsby-config.js` whi
 | `name`        | Your name                    | Yes      |
 | `title`       | The title of your site       | Yes      |
 | `description` | The description of your site | Yes      |
+| `resume`      | Your Resume URL              | No       |
+| `email`       | Email To Me Handle           | No       |
 | `author`      | Your Twitter Handle          | No       |
 | `github`      | Your GitHub Profile URL      | No       |
 | `linkedin`    | Your LinkedIn Profile URL    | No       |

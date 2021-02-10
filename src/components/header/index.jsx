@@ -22,7 +22,8 @@ const Header = ({ metadata = {}, noBlog = true }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
-  
+  const email = get(metadata, 'email', false);
+
 
   return (
     <div className={classes.wrapper}>
@@ -36,7 +37,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
           <Link to="/">{metadata.name}</Link>
         </h1>
         <p className={classes.description}>{metadata.description}</p>
-        
+
         <ul className={classes.list}>
 
           {resume && (
@@ -55,7 +56,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               <a
                 className={classes.link}
                 href={`https://twitter.com/${twitter}`}
-                >
+              >
                 Twitter
               </a>
             </li>
@@ -77,11 +78,11 @@ const Header = ({ metadata = {}, noBlog = true }) => {
             </li>
           )}
           {
-            <li className={classes.item}>
-              <Link className={classes.link} href={"mailto:huyho114@gmail.com"}>
+            email && (<li className={classes.item}>
+              <Link className={classes.link} href={`mailto:${email}`}>
                 EMAIL-ME
               </Link>
-            </li>
+            </li>)
           }
           {noBlog && (
             <li className={classes.item}>
