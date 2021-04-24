@@ -2,12 +2,12 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/profile.png';
+import profileImg from '../../images/profile_qr_beauty.png';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
   imageWrapper: 'w-full max-w-150',
-  image: 'rounded-full transform transition-all duration-150 hover:scale-105',
+  image: 'transform transition-all duration-150 hover:scale-105',//use rounded-full for cirle image
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl font-bold leading-tight text-gray-500  hover:text-white hover:font-extrabold',
   description: 'text-gray-400',
