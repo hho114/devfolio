@@ -28,9 +28,12 @@ const Header = ({ metadata = {}, noBlog = true }) => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
-        <Link to="/">
+        <Link to="https://qrco.de/bc5awY">
           <img className={classes.image} src={profileImg} alt={metadata.name} />
+          
         </Link>
+        
+       
       </div>
       <div className={classes.contentWrapper}>
         <h1 className={classes.name}>
