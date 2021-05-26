@@ -34,9 +34,7 @@ export const pageQuery = graphql`
         title
         description
         about
-        github
-        youtube
-        linkedin
+        
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
