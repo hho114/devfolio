@@ -19,8 +19,9 @@ const classes = {
 
 const Header = ({ metadata = {}, noBlog = true }) => {
   const resume = get(metadata, 'resume', false);
-  const twitter = get(metadata, 'author', false);
+  // const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
+  const youtube = get(metadata, 'youtube', false);
   const linkedin = get(metadata, 'linkedin', false);
   const email = get(metadata, 'email', false);
 
@@ -54,7 +55,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
             </li>
           )}
 
-          {twitter && (
+          {/* {twitter && (
             <li className={classes.item}>
               <a
                 className={classes.link}
@@ -63,8 +64,8 @@ const Header = ({ metadata = {}, noBlog = true }) => {
                 Twitter
               </a>
             </li>
-          )}
-
+          )} */}
+           
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
@@ -80,6 +81,15 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </a>
             </li>
           )}
+
+          {youtube && (
+            <li className={classes.item}>
+              <a className={classes.link} href={youtube}>
+                Youtube
+              </a>
+            </li>
+          )}
+          
           {
             email && (<li className={classes.item}>
               <Link className={classes.link} href={`mailto:${email}`}>
@@ -87,6 +97,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </Link>
             </li>)
           }
+          
           {noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
