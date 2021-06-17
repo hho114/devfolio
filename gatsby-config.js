@@ -25,6 +25,18 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Xstar Solutions',
+        description:
+          'Build a start up team to help local traditional businesses transform to moderm businesses, implement and transform to better technologies.',
+        link: 'https://xstar.dev/',
+      },
+      {
+        name: 'KSHOW',
+        description:
+          'Watch Asian TV shows online for FREE! Access to Korean Entertainment collections across the Americas featuring dramas, romantic comedies, reality, and variety series all with english-language subtitles.',
+        link: 'https://github.com/xstar-solution/kshow-public',
+      },
+      {
         name: 'Porfolio',
         description:
           'A modern dark theme personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.',
