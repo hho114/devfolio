@@ -34,7 +34,7 @@ module.exports = {
         name: 'KSHOW',
         description:
           'Watch Asian TV shows online for FREE! Access to Korean Entertainment collections across the Americas featuring dramas, romantic comedies, reality, and variety series all with english-language subtitles.',
-        link: 'https://github.com/xstar-solution/kshow-public',
+        link: 'https://github.com/hho114/kshow-ios-a',
       },
       {
         name: 'Porfolio',
