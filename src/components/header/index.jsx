@@ -29,7 +29,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
-        <Link to="https://qrco.de/bc5awY">
+        <Link to="https://docs.google.com/document/d/e/2PACX-1vRaxByCzRQz_br0OT4bI9v5x9zlmSFp83DIt6sEq0e7slWck2aB07WA4XEsRWNKk-Ka32TVkawSWRCW/pub">
           <img className={classes.image} src={profileImg} alt={metadata.name} />
           
         </Link>
