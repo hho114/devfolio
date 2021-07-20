@@ -1,5 +1,8 @@
 # Devfolio
 
+Live product at: [alexhuyho.com](https://alexhuyho.com/)
+
+<img src="src/images/screenshot.png" height="250em" />
 
 <!-- ![Preview](https://user-images.githubusercontent.com/9112801/96329524-c8906600-101b-11eb-8fd8-4d45e7f0cd1b.jpg) -->
 
@@ -15,6 +18,7 @@ Some of the features include:
 - Mobile Friendly
 - Extend and Customize as Needed
 - Blazing Fast 🙄
+- QR Code with google drive web publish
 
 ## Demo
 
@@ -221,5 +225,8 @@ This is however just a recommendation, the template allows you to write the comp
 
 Licensed under the [MIT License](https://github.com/hho114/devfolio/blob/master/LICENSE.md).
 
+Credit:
 
-Credit: [Original Project](https://github.com/RyanFitzgerald/devfolio)
+- [Original Project](https://github.com/RyanFitzgerald/devfolio)
+
+- [QRCode Monkey](https://www.qrcode-monkey.com/)
