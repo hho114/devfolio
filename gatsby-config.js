@@ -24,6 +24,26 @@ module.exports = {
     about: `My professional life has been 100% driven by my passion for design and structure. I was always curious about technology when I was a kid, and started fixing things such as laptops and computers while in high school, therefore I chose a computer science career path as today. My short term goal is to join a reputed company where I can utilize my skills and knowledge for upliftment of the company and where I can get a learning environment to boost my career. My long term goal is to become skillful and coordinated towards the development of the country. My current interests are web development, mobile development, machine learning, data analysis, and software engineering.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      
+      {
+        name: 'KSHOW',
+        description:
+          'Watch Asian TV shows online for FREE! Access to Korean Entertainment collections across the Americas featuring dramas, romantic comedies, reality, and variety series all with english-language subtitles.',
+        link: 'https://github.com/hho114/kshow-ios-a',
+      },
+      
+      {
+        name: 'Proof',
+        description:
+          'PROOF is a mobile app technology solution for remote drug and alcohol testing.',
+        link: 'https://apps.apple.com/us/app/proof/id1471553656',
+      },
+      {
+        name: 'MobileTrek',
+        description:
+          'MobileTrek provides a convenient method for Participants to interface and remain compliant with their program.',
+        link: 'https://play.google.com/store/apps/details?id=recoverytrek.com.mobiletrek&hl=en',
+      },
       {
         name: 'Xstar Solutions',
         description:
@@ -31,17 +51,12 @@ module.exports = {
         link: 'https://xstar.dev/',
       },
       {
-        name: 'KSHOW',
-        description:
-          'Watch Asian TV shows online for FREE! Access to Korean Entertainment collections across the Americas featuring dramas, romantic comedies, reality, and variety series all with english-language subtitles.',
-        link: 'https://github.com/hho114/kshow-ios-a',
-      },
-      {
         name: 'Porfolio',
         description:
           'A modern dark theme personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.',
         link: 'https://github.com/hho114/devfolio',
       },
+      
       {
         name: 'Burger Order',
         description:
