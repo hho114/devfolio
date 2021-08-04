@@ -23,6 +23,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
   const github = get(metadata, 'github', false);
   const youtube = get(metadata, 'youtube', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const upwork = get(metadata, 'upwork', false);
   const email = get(metadata, 'email', false);
 
 
@@ -86,6 +87,13 @@ const Header = ({ metadata = {}, noBlog = true }) => {
             <li className={classes.item}>
               <a className={classes.link} href={youtube}>
                 Youtube
+              </a>
+            </li>
+          )}
+          {upwork && (
+            <li className={classes.item}>
+              <a className={classes.link} href={upwork}>
+                Upwork
               </a>
             </li>
           )}

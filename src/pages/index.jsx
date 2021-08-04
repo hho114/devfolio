@@ -48,6 +48,7 @@ export const pageQuery = graphql`
         github
         youtube
         linkedin
+        upwork
         email
         projects {
           name

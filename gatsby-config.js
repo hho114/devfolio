@@ -20,6 +20,8 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/hho114/`,
     // Optional: Email 
     email: `huyho114@gmail.com`,
+    
+    upwork: `https://www.upwork.com/o/profiles/users/~01e9d23b13376fd806/`,
     // Content of the About Me section
     about: `My professional life has been 100% driven by my passion for design and structure. I was always curious about technology when I was a kid, and started fixing things such as laptops and computers while in high school, therefore I chose a computer science career path as today. My short term goal is to join a reputed company where I can utilize my skills and knowledge for upliftment of the company and where I can get a learning environment to boost my career. My long term goal is to become skillful and coordinated towards the development of the country. My current interests are web development, mobile development, machine learning, data analysis, and software engineering.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
