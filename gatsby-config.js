@@ -62,13 +62,13 @@ module.exports = {
       {
         name: 'Burger Order',
         description:
-          'A sample order burger website with multiple foudation implements',
+          'A sample order burger website using react js with multiple foudation implements',
         link: 'https://github.com/hho114/reactjs-burger',
       },
       {
         name: 'Dump The Bump',
         description:
-          'Cross platfrom mobile application with Firebase and Flutter',
+          'Cross platfrom mobile application with Firebase and Flutter, the application help post-pregnant women keep track of their weight and emotion to bring them back to pre-pregnancy life',
         link: 'https://apps.apple.com/us/app/dump-the-bump/id1518827461',
       },
       {
