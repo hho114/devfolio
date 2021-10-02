@@ -47,12 +47,6 @@ module.exports = {
         link: 'https://play.google.com/store/apps/details?id=recoverytrek.com.mobiletrek&hl=en',
       },
       {
-        name: 'Xstar Solutions',
-        description:
-          'Build a start up team to help local traditional businesses transform to moderm businesses, implement and transform to better technologies.',
-        link: 'https://xstar.dev/',
-      },
-      {
         name: 'Porfolio',
         description:
           'A modern dark theme personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.',
