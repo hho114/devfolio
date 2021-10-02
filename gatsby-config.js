@@ -72,6 +72,12 @@ module.exports = {
         link: 'https://apps.apple.com/us/app/dump-the-bump/id1518827461',
       },
       {
+        name: 'CSUF SWAP',
+        description:
+          'Cross platfrom mobile application with Firebase and Flutter, the application help student to solve the issue when they have ticket permit but hard to find a parking spot',
+        link: 'https://github.com/Krunk-Juice/CSUF-Parking-App',
+      },
+      {
         name: 'University Database',
         description:
           'Website to check grades and search for courses and professor with mock university database',
