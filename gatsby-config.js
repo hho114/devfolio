@@ -58,7 +58,6 @@ module.exports = {
           'A modern dark theme personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.',
         link: 'https://github.com/hho114/devfolio',
       },
-      
       {
         name: 'Burger Order',
         description:
