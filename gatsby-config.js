@@ -114,7 +114,7 @@ module.exports = {
       {
         name: 'Others',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum, Xcode, Android Studio, Bash Terminal, Play Store Console, Apple Store Connect, VSCode, Git, Microsoft Office, Github, Gitlab, Heroku, Bugfender, Linux, Window, Mac.',
+          'Docker, CI / CD, Microservices, API design, Agile / Scrum, Xcode, Android Studio, Bash Terminal, Play Store Console, Apple Store Connect, VSCode, Git, Microsoft Office, Github, Gitlab, Heroku, Bugfender, Linux, Window, Mac.',
       },
     ],
   },
