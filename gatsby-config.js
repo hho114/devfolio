@@ -109,7 +109,7 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'Firebase, AWS, MongoDB, JSON API, RESTAPI, NoSQL, Salesforce, MySQL.',
+        description: 'Salesforce, Firebase, AWS, Oracle, MongoDB, JSON API, RESTAPI, NoSQL, MySQL.',
       },
       {
         name: 'Others',
