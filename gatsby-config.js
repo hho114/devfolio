@@ -11,7 +11,7 @@ module.exports = {
     // Optional: Twitter account handle
     author: `@AlexHo114`,
     // Optional: Resume URL
-    resume: `https://raw.githubusercontent.com/hho114/resume/master/huy_ho_resume.pdf`,
+    resume: `https://raw.githubusercontent.com/hho114/resume/master/alex_resume.pdf`,
     // Optional: Github account URL
     github: `https://github.com/hho114`,
     
