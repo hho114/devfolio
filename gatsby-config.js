@@ -29,7 +29,7 @@ module.exports = {
       {
         name: 'HOUSE',
         description:
-          'I purchased the house and remodel it, I count this as a project because I have learned multiples things such as real estate, plumbing, electric as well as redesign the house architecture. The project show case will coming soon.',
+          'I purchased the house and remodel it, I count this as a project because I have learned multiples things such as real estate, plumbing, electric as well as redesign the house architecture.',
         link: 'https://hho114.github.io/',
       },
 
