@@ -14,13 +14,13 @@ module.exports = {
     resume: `https://raw.githubusercontent.com/hho114/resume/master/alex_resume.pdf`,
     // Optional: Github account URL
     github: `https://github.com/hho114`,
-    
+
     youtube: `https://www.youtube.com/channel/UCOuT_FD9KGs_AtQnS935E5g`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/hho114/`,
-    // Optional: Email 
+    // Optional: Email
     email: `huyho114@gmail.com`,
-    
+
     upwork: `https://www.upwork.com/o/profiles/users/~01e9d23b13376fd806/`,
     // Content of the About Me section
     about: `My professional life has been 100% driven by my passion for design and structure. I was always curious about technology when I was a kid, and started fixing things such as laptops and computers while in high school, therefore I chose a computer science career path as today. My short term goal is to join a reputed company where I can utilize my skills and knowledge for upliftment of the company and where I can get a learning environment to boost my career. My long term goal is to become skillful and coordinated towards the development of the country. My current interests are web development, mobile development, machine learning, data analysis, and software engineering.`,
@@ -30,7 +30,7 @@ module.exports = {
         name: 'HOUSE',
         description:
           'I purchased the house and remodel it, I count this as a project because I have learned multiples things such as real estate, plumbing, electric as well as redesign the house architecture. The project show case will coming soon.',
-        link: '',
+        link: 'https://hho114.github.io/',
       },
 
       {
@@ -39,7 +39,7 @@ module.exports = {
           'Watch Asian TV shows online for FREE! Access to Korean Entertainment collections across the Americas featuring dramas, romantic comedies, reality, and variety series all with english-language subtitles.',
         link: 'https://github.com/hho114/kshow-ios-a',
       },
-      
+
       {
         name: 'Proof',
         description:
@@ -50,7 +50,8 @@ module.exports = {
         name: 'MobileTrek',
         description:
           'MobileTrek provides a convenient method for Participants to interface and remain compliant with their program.',
-        link: 'https://play.google.com/store/apps/details?id=recoverytrek.com.mobiletrek&hl=en',
+        link:
+          'https://play.google.com/store/apps/details?id=recoverytrek.com.mobiletrek&hl=en',
       },
       {
         name: 'Porfolio',
@@ -92,12 +93,14 @@ module.exports = {
       },
       {
         name: 'Intelligent Learning Experiences Lab',
-        description: 'Mobile and Full-Stack Developer, January 2020 - September 2020',
+        description:
+          'Mobile and Full-Stack Developer, January 2020 - September 2020',
         link: 'http://www.fullerton.edu/ecs/faculty/pinventado/ilxl/',
       },
       {
         name: 'California State University, Fullerton',
-        description: 'Computer Laboratory Consultant, August 2019 - August 2020',
+        description:
+          'Computer Laboratory Consultant, August 2019 - August 2020',
         link: 'http://www.fullerton.edu/nrcal/',
       },
       {
@@ -115,7 +118,8 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'Salesforce, Firebase, AWS, Oracle, MongoDB, JSON API, RESTAPI, NoSQL, MySQL.',
+        description:
+          'Salesforce, Firebase, AWS, Oracle, MongoDB, JSON API, RESTAPI, NoSQL, MySQL.',
       },
       {
         name: 'Others',

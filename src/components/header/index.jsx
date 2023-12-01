@@ -7,9 +7,10 @@ import profileImg from '../../images/profile_qr_beauty.png';
 const classes = {
   wrapper: 'block mb-6 md:flex',
   imageWrapper: 'w-full max-w-150',
-  image: 'transform transition-all duration-150 hover:scale-105',//use rounded-full for cirle image
+  image: 'transform transition-all duration-150 hover:scale-105', //use rounded-full for cirle image
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
-  name: 'text-5xl font-bold leading-tight text-gray-500  hover:text-white hover:font-extrabold',
+  name:
+    'text-5xl font-bold leading-tight text-gray-500  hover:text-white hover:font-extrabold',
   description: 'text-gray-400',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4 ',
@@ -26,16 +27,12 @@ const Header = ({ metadata = {}, noBlog = true }) => {
   const upwork = get(metadata, 'upwork', false);
   const email = get(metadata, 'email', false);
 
-
   return (
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
         <Link to="https://docs.google.com/document/d/e/2PACX-1vRaxByCzRQz_br0OT4bI9v5x9zlmSFp83DIt6sEq0e7slWck2aB07WA4XEsRWNKk-Ka32TVkawSWRCW/pub">
           <img className={classes.image} src={profileImg} alt={metadata.name} />
-          
         </Link>
-        
-       
       </div>
       <div className={classes.contentWrapper}>
         <h1 className={classes.name}>
@@ -44,13 +41,9 @@ const Header = ({ metadata = {}, noBlog = true }) => {
         <p className={classes.description}>{metadata.description}</p>
 
         <ul className={classes.list}>
-
           {resume && (
             <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={resume}
-              >
+              <a className={classes.link} href={resume}>
                 Resume
               </a>
             </li>
@@ -66,7 +59,7 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </a>
             </li>
           )} */}
-           
+
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
@@ -97,15 +90,15 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </a>
             </li>
           )}
-          
-          {
-            email && (<li className={classes.item}>
+
+          {email && (
+            <li className={classes.item}>
               <Link className={classes.link} href={`mailto:${email}`}>
                 EMAIL-ME
               </Link>
-            </li>)
-          }
-          
+            </li>
+          )}
+
           {noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
@@ -113,7 +106,6 @@ const Header = ({ metadata = {}, noBlog = true }) => {
               </Link>
             </li>
           )}
-
         </ul>
       </div>
     </div>
