@@ -27,6 +27,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'NAIL SALON',
+        description:
+          'Project about design and build nail salon. COMING SOON...',
+        link: '',
+      },
+      {
         name: 'HOUSE',
         description:
           'I purchased the house and remodel it, I count this as a project because I have learned multiples things such as real estate, plumbing, electric as well as redesign the house architecture.',
