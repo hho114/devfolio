@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Alex Ho',
     // Main Site Title
-    title: `Alex Ho | Mobile Developer`,
+    title: `Alex Ho | Software Developer`,
     // Description that goes under your name in main bio
-    description: `I am a software engineer, mobile developer (IOS & Android) based out of Virginia, USA. I have experience building mobile and web applications and services in various verticals and I enjoy building side projects in my free time.`,
+    description: `I am a software engineer, software developer based out of Virginia, USA. I have experience building mobile and web applications and services in various verticals and I enjoy building side projects in my free time.`,
     // Optional: Twitter account handle
     author: `@AlexHo114`,
     // Optional: Resume URL
