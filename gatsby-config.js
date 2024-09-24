@@ -107,7 +107,7 @@ module.exports = {
         name: 'California State University, Fullerton',
         description:
           'Computer Laboratory Consultant, August 2019 - August 2020',
-        link: 'http://www.fullerton.edu/nrcal/',
+        link: 'https://www.fullerton.edu/it/students/computerlabs/',
       },
       {
         name: 'National Resource Center For Asian Languages',
