@@ -28,7 +28,7 @@ module.exports = {
     projects: [
       {
         name: 'OCEAN NAIL SPA',
-        description: 'I designed and built Ocean Nail Spa from the ground up, gaining valuable experience in new construction and business development. I collaborated with multiple subcontractors, including electricians, plumbers, and framers, to ensure a high-quality build. One of my proudest achievements is creating an exhaust system that meets new nail salon standards, effectively eliminating the smell of liquid products for a fresher, healthier environment. This journey has been a great learning experience in managing a construction project and coordinating with professionals to bring the salon to life.',
+        description: 'I designed and built Ocean Nail Spa from the ground up, managing construction and business development. I worked with subcontractors to ensure quality and implemented an advanced exhaust system to meet new nail salon standards, creating a fresher environment. This experience honed my project management and coordination skills.',
         link: 'https://oceannailspava.com/',
       },
       {
