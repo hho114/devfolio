@@ -27,10 +27,9 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'NAIL SALON',
-        description:
-          'Project about design and build nail salon. COMING SOON...',
-        link: '',
+        name: 'OCEAN NAIL SPA',
+        description: 'I designed and built Ocean Nail Spa from the ground up, gaining valuable experience in new construction and business development. I collaborated with multiple subcontractors, including electricians, plumbers, and framers, to ensure a high-quality build. One of my proudest achievements is creating an exhaust system that meets new nail salon standards, effectively eliminating the smell of liquid products for a fresher, healthier environment. This journey has been a great learning experience in managing a construction project and coordinating with professionals to bring the salon to life.',
+        link: 'https://oceannailspava.com/',
       },
       {
         name: 'HOUSE',
