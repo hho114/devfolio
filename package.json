@@ -6,7 +6,8 @@
   "version": "0.3.0",
   "author": "Alex Ho",
   "dependencies": {
-    "gatsby": "^3.3.1",
+    "babel-plugin-remove-graphql-queries": "^5.14.0",
+    "gatsby": "^5.14.1",
     "gatsby-plugin-feed": "^3.15.0",
     "gatsby-plugin-google-analytics": "^3.15.0",
     "gatsby-plugin-image": "^3.14.0",
