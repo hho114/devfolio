@@ -21,9 +21,9 @@ module.exports = {
     // Optional: Email
     email: `huyho114@gmail.com`,
 
-    upwork: `https://www.upwork.com/o/profiles/users/~01e9d23b13376fd806/`,
+    // upwork: `https://www.upwork.com/o/profiles/users/~01e9d23b13376fd806/`,
     // Content of the About Me section
-    about: `My professional life has been 100% driven by my passion for design and structure. I was always curious about technology when I was a kid, and started fixing things such as laptops and computers while in high school, therefore I chose a computer science career path as today. My short term goal is to join a reputed company where I can utilize my skills and knowledge for upliftment of the company and where I can get a learning environment to boost my career. My long term goal is to become skillful and coordinated towards the development of the country. My current interests are web development, mobile development, machine learning, data analysis, and software engineering.`,
+    about: `My professional life has been 100% driven by my passion for design and structure. I was always curious about technology when I was a kid and started fixing things such as laptops and computers while in high school. That curiosity led me to pursue a career in computer science. My goal is to apply my skills and knowledge to help people through technology—by building useful, impactful solutions and continuously learning and growing in the process. I’m guided by the belief that hard work and creativity can take you anywhere and help you achieve anything you desire. I aspire to become a highly skilled and coordinated professional who contributes to meaningful advancements that benefit communities and support global development. My current interests include web development, mobile development, machine learning, data analysis, and software engineering.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -46,7 +46,7 @@ module.exports = {
       },
 
       {
-        name: 'Proof',
+        name: 'PROOF',
         description:
           'PROOF is a mobile app technology solution for remote drug and alcohol testing.',
         link: 'https://apps.apple.com/us/app/proof/id1471553656',
@@ -57,12 +57,6 @@ module.exports = {
           'MobileTrek provides a convenient method for Participants to interface and remain compliant with their program.',
         link:
           'https://play.google.com/store/apps/details?id=recoverytrek.com.mobiletrek&hl=en',
-      },
-      {
-        name: 'Porfolio',
-        description:
-          'A modern dark theme personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.',
-        link: 'https://github.com/hho114/devfolio',
       },
       {
         name: 'Burger Order',
@@ -119,7 +113,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Swift, Java, Dart, Kotlin, Flutter, JSON, C++, C, HTML, XML, CSS, Python, SQL, Fortran, JavaScript, Node.js, Express.js, Reactjs, PHP. ',
+          'Swift, Objective-C, Java, Dart, Kotlin, Apex, Flutter, JSON, C++, C, HTML, XML, CSS, Python, SQL, Fortran, JavaScript, Node.js, Express.js, Reactjs, PHP. ',
       },
       {
         name: 'Databases',
