@@ -55,5 +55,8 @@
   },
   "bugs": {
     "url": "https://github.com/hho114/devfolio/issues"
-  }
+  },
+  "engines": {
+  "node": ">=20"
+}
 }
