@@ -28,13 +28,13 @@ module.exports = {
     projects: [
       {
         name: 'OCEAN NAIL SPA',
-        description: 'I designed and built Ocean Nail Spa from the ground up, managing construction and business development. I worked with subcontractors to ensure quality and implemented an advanced exhaust system to meet new nail salon standards, creating a fresher environment. This experience honed my project management and coordination skills.',
+        description: 'I designed and developed the Ocean Nail Spa website with a modern and user-friendly online presence for the business. The website includes online appointment booking, customer review management, service showcases, and responsive mobile-friendly design.',
         link: 'https://oceannailspava.com/',
       },
       {
-        name: 'OCEAN NAIL SPA',
+        name: 'Nail Salon Build Out',
         description: 'I designed and built Ocean Nail Spa from the ground up, managing construction and business development. I worked with subcontractors to ensure quality and implemented an advanced exhaust system to meet new nail salon standards, creating a fresher environment. This experience honed my project management and coordination skills.',
-        link: 'https://oceannailspava.com/',
+        link: 'https://drive.google.com/file/d/1oru1KeyCldWjaFPk1y_Pxn42kNKrmJ07/view?usp=sharing',
       },
       {
         name: 'HOUSE',
